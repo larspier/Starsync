@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Phone } from 'lucide-react';
+import { Instagram, Phone, Email } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -30,12 +30,19 @@ export default function Footer() {
               <Phone className="h-6 w-6 mr-2" />
               <span>+57 300 886 6353</span>
             </a>
+            <a
+              href="mailto:contacto@starsync.art"
+              className="flex items-center text-gray-900  hover:text-orange-500"
+            >
+              <Email className="h-6 w-6 mr-2" />
+              <span>contacto@starsync.art</span>
+            </a>
           </div>
         </div>
         <div className="mt-8 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()}
             <a
-              href="https://www.instagram.com/__starsync?igsh=anFrNWkyOGVpMzc4"
+              href="https://larspier.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-900 hover:text-orange-500"
