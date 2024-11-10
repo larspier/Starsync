@@ -137,7 +137,7 @@ export default function Home() {
       </div>
 
       {/* Noticias section*/}
-            <div className="bg-white py-24 sm:py-32">
+            <div className="bg-white py-12 sm:py-12">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Noticias</h2>
