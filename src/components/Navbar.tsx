@@ -31,7 +31,7 @@ export default function Navbar() {
                 to="/profesionales"
                 className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
               >
-                Profesionales
+                Personas
               </Link>
               <Link
                 to="/empresas"
