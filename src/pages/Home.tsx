@@ -143,7 +143,7 @@ export default function Home() {
                         <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Noticias</h2>
                         <p className="mt-2 text-lg/8 text-gray-600">Aprenda a Mejorar su Negocio con nuestras publicaciones. </p>
                     </div>
-                    <div className="mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 border-t border-gray-200 pt-4 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                    <div className="mx-auto mt-6 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-4 border-t border-gray-200 pt-4 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                       
                         <article className="flex max-w-xl flex-col items-start justify-between">
                            <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
