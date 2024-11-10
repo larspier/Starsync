@@ -64,16 +64,15 @@ export default function Navbar() {
                 <>
                   <Link
                     to="/dashboard"
-                    className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
-                  >
+                    className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium">
                     Dashboard
                   </Link>
-              <Link
-                to="/foros"
-                className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
-              >
-                Foros
-              </Link>
+                  <Link
+                    to="/foros"
+                    className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Foros
+                  </Link>
                   <button
                     onClick={logout}
                     className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2"
