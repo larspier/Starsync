@@ -141,7 +141,6 @@ export default function Home() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Noticias</h2>
-                        <p className="mt-2 text-lg/8 text-gray-600">Aprenda a Mejorar su Negocio con nuestras publicaciones. </p>
                     </div>
                     <div className="mx-auto mt-4 grid max-w-xl grid-cols-1 gap-x-8 gap-y-4 border-t border-gray-200 pt-4 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                       
