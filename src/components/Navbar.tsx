@@ -14,7 +14,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
               <img
-                className="h-8 w-auto"
+                className="h-18 w-auto"
                 src="https://larspier.com/assets/img/STARSYNC_LOGO.png"
                 alt="StarSync"
               />
