@@ -27,6 +27,8 @@ export default function Navbar() {
               >
                 Inicio
               </Link>
+              {!isAuthenticated ? (
+                <>
               <Link
                 to="/profesionales"
                 className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
@@ -45,8 +47,6 @@ export default function Navbar() {
               >
                 Servicios
               </Link>
-              {!isAuthenticated ? (
-                <>
                   <Link
                     to="/login"
                     className="text-gray-900 hover:bg-orange-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -68,6 +68,12 @@ export default function Navbar() {
                   >
                     Dashboard
                   </Link>
+              <Link
+                to="/foros"
+                className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Foros
+              </Link>
                   <button
                     onClick={logout}
                     className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium flex items-center gap-2"
