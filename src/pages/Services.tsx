@@ -24,7 +24,7 @@ export default function Services() {
       icon: Mic,
     },
   ];
-
+  
   const categories = [
     { name: 'Equipos de Cámara', icon: Camera },
     { name: 'Producción', icon: Film },
