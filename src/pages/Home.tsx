@@ -64,7 +64,7 @@ export default function Home() {
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center relative z-10">
-            <h2 className="text-base text-orange-500 font-semibold tracking-wide uppercase">Características</h2>
+            <h2 className="text-base text-orange-500 font-semibold tracking-wide uppercase"></h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
               Todo lo que necesitas para brillar en la industria
             </p>
