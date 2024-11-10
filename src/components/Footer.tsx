@@ -10,7 +10,7 @@ export default function Footer() {
             <img
               src="https://larspier.com/assets/img/STARSYNC_LOGO.png"
               alt="StarSync"
-              className="h-12"
+              className="h-16"
             />
           </div>
           <div className="flex space-x-6">
