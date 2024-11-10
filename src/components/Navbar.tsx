@@ -11,14 +11,12 @@ export default function Navbar() {
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0">
-              <img
-                className="h-18"
-                src="https://larspier.com/assets/img/STARSYNC_LOGO.png"
-                alt="StarSync"
-              />
-            </Link>
+          <div className="mb-4 md:mb-0">
+            <img
+              src="https://larspier.com/assets/img/STARSYNC_LOGO.png"
+              alt="StarSync"
+              className="h-16"
+            />
           </div>
 
           <div className="hidden md:block">
