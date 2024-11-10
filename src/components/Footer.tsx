@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Phone, Email } from 'lucide-react';
+import { Instagram, Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -34,7 +34,7 @@ export default function Footer() {
               href="mailto:contacto@starsync.art"
               className="flex items-center text-gray-900  hover:text-orange-500"
             >
-              <Email className="h-6 w-6 mr-2" />
+              <Mail className="h-6 w-6 mr-2" />
               <span>contacto@starsync.art</span>
             </a>
           </div>
