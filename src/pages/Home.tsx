@@ -51,17 +51,26 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Features Section */}
-      <div className="py-12 bg-gray-900">
+       {/* Features Section */}
+      <div className="py-12 bg-gray-900 relative">
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: 'url("https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            opacity: '0.1'
+          }}
+        />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
+          <div className="lg:text-center relative z-10">
             <h2 className="text-base text-orange-500 font-semibold tracking-wide uppercase">Características</h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
               Todo lo que necesitas para brillar en la industria
             </p>
           </div>
 
-          <div className="mt-10">
+          <div className="mt-10 relative z-10">
             <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
               <div className="relative">
                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
