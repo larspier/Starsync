@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
                   <Film className="h-6 w-6" />
                 </div>
-                <p className="ml-16 text-lg leading-6 font-medium text-white">Portfolio Digital</p>
+                <p className="ml-16 text-lg leading-6 font-medium text-white">Portafolio Digital</p>
                 <p className="mt-2 ml-16 text-base text-gray-300">
                   Muestra tus mejores trabajos y proyectos.
                 </p>
