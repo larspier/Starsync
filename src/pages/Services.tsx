@@ -41,6 +41,7 @@ export default function Services() {
   permitiendo crear una amplia estructura de Networking única en su estilo
 </h2>
       <p>Disfruta a Continuación de algunos de los productos destacados de nuestros miembros e ingresa para poder disfrutar de una experiencia de negocios de otro mundo. </p>
+      
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         {categories.map((category, index) => {
           const Icon = category.icon;
