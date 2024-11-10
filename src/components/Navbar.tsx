@@ -45,6 +45,12 @@ export default function Navbar() {
               >
                 Servicios
               </Link>
+              <Link
+                to="/foros"
+                className="text-gray-900 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Foros
+              </Link>
               {!isAuthenticated ? (
                 <>
                   <Link
