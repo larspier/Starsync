@@ -23,6 +23,16 @@ export default function Companies() {
       image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80',
       openPositions: 5,
     },
+    {
+      id: 3,
+      name: 'Larspier.com',
+      type: 'Empresa de Desarrollo de Software',
+      location: 'Barranquilla, Colombia',
+      employees: '50-100',
+      projects: 240,
+      image: 'https://larspier.com/assets/img/logo.png',
+      openPositions: 7,
+    },
   ];
 
   return (
