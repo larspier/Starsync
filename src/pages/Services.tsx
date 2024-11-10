@@ -9,7 +9,7 @@ export default function Services() {
       provider: 'CineRent Pro',
       rating: 4.8,
       reviews: 156,
-      price: '250€/día',
+      price: '',
       image: 'https://images.unsplash.com/photo-1589872307379-0ffdf9829123?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80',
       icon: Camera,
     },
@@ -19,7 +19,7 @@ export default function Services() {
       provider: 'SoundStage Studios',
       rating: 4.9,
       reviews: 98,
-      price: '400€/día',
+      price: '',
       image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80',
       icon: Mic,
     },
@@ -42,7 +42,7 @@ export default function Services() {
           return (
             <button
               key={index}
-              className="flex flex-col items-center justify-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+              className="flex flex-col items-center justify-center p-6  rounded-lg shadow-md hover:shadow-lg transition-shadow"
             >
               <Icon className="h-8 w-8 text-orange-500 mb-2" />
               <span className="text-gray-900 font-medium">{category.name}</span>
