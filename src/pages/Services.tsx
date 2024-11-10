@@ -35,12 +35,12 @@ export default function Services() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-8">Servicios y Productos</h1>
- <p  className="text-xl text-gray-400">
+ <p  className="mt-3 text-base text-gray-500">
   StarSync ofrece a sus miembros además de los beneficios de una Red Social especializada en el sector del Cine, Fotografía, Medios Audiocisuales y Videojuegos, 
   la oportunidad de intercambiar con cada uno de sus miembros personas o empresas, los servicios y productos que cada uno desarrolla en su negocio,
   permitiendo crear una amplia estructura de Networking única en su estilo
 </p>
-      <p  className="text-xl text-gray-400">
+      <p  className="mt-3 text-base text-gray-500">
         Disfruta a Continuación de algunos de los productos destacados de nuestros miembros e ingresa para poder disfrutar de una experiencia de negocios de otro mundo. 
       </p>
       <h2 className="text-2xl font-bold text-gray-600 my-8">
