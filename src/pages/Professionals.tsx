@@ -47,8 +47,11 @@ export default function Professionals() {
             <Filter className="h-5 w-5 mr-2" />
             Filtrar
           </button>
-        </div>        
-        <h2 className="text-2xl font-bold text-gray-500">Ingresa a nuestra comunidad de Profesionales, Tecnologos, Técnicos y Amantes de la Industria del Cine, Audiovisuales y Videojuegos</h2>
+        </div>  
+      </div>
+      <div className="flex justify-between items-center mb-8">
+            
+        <h2 className="text-2xl font-bold text-gray-500">Ingresa a nuestra comunidad de Profesionales, Tecnologos, Técnicos y Amantes de la Industria del Cine, Audiovisuales y Videojuegos</h2> 
       </div>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
