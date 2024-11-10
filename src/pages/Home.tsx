@@ -180,7 +180,7 @@ export default function Home() {
                             </div>
                         </article>
 
-                        <!-- More posts... -->
+                        
                     </div>
                 </div>
             </div>
