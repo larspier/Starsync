@@ -168,7 +168,7 @@ export default function Home() {
                                     alt="" className="h-10 w-10 rounded-full bg-gray-50"/>
                                 <div className="text-sm/6">
                                     <p className="font-semibold text-gray-900">
-                                        <a href="#">
+                                        <a href="http://starsinsider.com/">
                                             <span className="absolute inset-0"></span>
                                             Historia de Stars Insider 
                                         </a>
