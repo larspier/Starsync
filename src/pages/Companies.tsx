@@ -30,7 +30,7 @@ export default function Companies() {
       location: 'Barranquilla, Colombia',
       employees: '50-100',
       projects: 240,
-      image: 'https://larspier.com/assets/img/logo.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=9104q=80',
+      image: 'https://larspier.com/assets/img/logo.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=4200q=80',
       openPositions: 7,
     },
   ];
