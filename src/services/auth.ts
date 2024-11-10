@@ -1,28 +1,68 @@
-import { query } from '../lib/db';
-import { User } from '../types/auth';
+import type { User, LoginCredentials, RegisterData, AuthResponse } from '../types/auth';
 
-export async function registerUser(userData: Omit<User, 'id'>) {
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
+
+export async function registerUser(userData: RegisterData): Promise<User> {
   try {
-    const result = await query(
-      'INSERT INTO users (email, name, role) VALUES (?, ?, ?)',
-      [userData.email, userData.name, userData.role]
-    );
-    return result;
+    const response = await fetch(`${API_URL}/auth/register`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(userData),
+    });
+
+    if (!response.ok) {
+      throw new Error('Registration failed');
+    }
+
+    return response.json();
   } catch (error) {
     console.error('Error registering user:', error);
-    throw error;
+    throw new Error('Registration failed');
   }
 }
 
-export async function loginUser(email: string, password: string) {
+export async function loginUser(credentials: LoginCredentials): Promise<AuthResponse> {
   try {
-    const users = await query(
-      'SELECT id, email, name, role FROM users WHERE email = ? LIMIT 1',
-      [email]
-    );
-    return users[0] as User | undefined;
+    const response = await fetch(`${API_URL}/auth/login`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(credentials),
+    });
+
+    if (!response.ok) {
+      throw new Error('Invalid credentials');
+    }
+
+    return response.json();
   } catch (error) {
     console.error('Error logging in:', error);
-    throw error;
+    throw new Error('Login failed');
+  }
+}
+
+export async function getCurrentUser(): Promise<User> {
+  const token = localStorage.getItem('token');
+  if (!token) {
+    throw new Error('No token found');
+  }
+
+  try {
+    const response = await fetch(`${API_URL}/auth/me`, {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to get user data');
+    }
+
+    return response.json();
+  } catch (error) {
+    throw new Error('Failed to get current user');
   }
 }
