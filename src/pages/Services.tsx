@@ -43,7 +43,7 @@ export default function Services() {
       <p  className="text-xl text-gray-400">
         Disfruta a Continuación de algunos de los productos destacados de nuestros miembros e ingresa para poder disfrutar de una experiencia de negocios de otro mundo. 
       </p>
-      <h2 className="text-2xl font-bold text-gray-600 py-6">
+      <h2 className="text-2xl font-bold text-gray-600 my-8">
   Los más destacados de nuestros miembros</h2>
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
